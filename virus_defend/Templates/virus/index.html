@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h3>健康状态：1：良好   2：不佳  3：确诊</h3>
+
+<h2>{% for item in health %}
+    {{ item.temp }}...{{ item.state }}<br>
+    {% endfor %}</h2>
+</body>
+</html>
